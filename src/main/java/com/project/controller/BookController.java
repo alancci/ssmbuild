@@ -25,6 +25,22 @@ public class BookController {
         model.addAttribute("list", list);
         return "allBook";
     }
+
+    @RequestMapping("/list")
+    @ResponseBody
+    public WebResultDto webdto() {
+        WebResultDto dto = new WebResultDto();
+        List<Books> booksList = bookService.queryAllBook();
+//        JSONObject model = new JSONObject();
+//        model.put("book",booksList);
+        dto.success(booksList);
+        return dto;
+    }
+
+
+
+
+
     @RequestMapping("/toAddBook")
     public String toAddPaper() {
         return "addBook";
@@ -62,7 +78,12 @@ public class BookController {
         System.out.println(books);
         int save = bookService.updateBook(books);
         WebResultDto dto = new WebResultDto();
-        dto.success(save);
+        if (save>0){
+            dto.success(save);
+        }else{
+            dto.setInfo("书籍信息不存在");
+            dto.fail(save);
+        }
         return dto;
     }
     /**
@@ -101,6 +122,15 @@ public class BookController {
         bookService.deleteBookById(id);
         return "redirect:/book/allBook";
     }
+    @RequestMapping(value = "/delete")
+    @ResponseBody
+    public WebResultDto delete(Integer id){
+        System.out.println(id);
+        WebResultDto dto = new WebResultDto();
+        int delete = bookService.deleteBookById(id);
+        dto.success(delete);
+        return dto;
+    }
 
 
 
@@ -121,15 +151,6 @@ public class BookController {
     }
 
 
-    @RequestMapping("/testdto")
-    @ResponseBody
-    public WebResultDto webdto() {
-        WebResultDto dto = new WebResultDto();
-        List<Books> booksList = bookService.queryAllBook();
-        JSONObject model = new JSONObject();
-         model.put("book",booksList);
-        dto.success(model);
-        return dto;
-    }
+
 
 }

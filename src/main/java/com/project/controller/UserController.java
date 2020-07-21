@@ -34,6 +34,7 @@ public class UserController {
         User resultUser = userService.login(user);
         if (resultUser == null){
             dto.setInfo("用户不存在，用户名或者密码错误");
+            dto.fail(resultUser);
         }else {
             dto.success(resultUser);
         }
