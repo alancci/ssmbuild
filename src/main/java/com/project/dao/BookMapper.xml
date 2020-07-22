@@ -3,6 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.project.dao.BookMapper">
+    <!--resultMap映射必须-->
+    <resultMap type="com.project.pojo.Books" id="BookResultMap">
+        <id column="bookID" property="bookID" jdbcType="INTEGER" />
+        <result column="bookName" property="bookName" jdbcType="VARCHAR" />
+        <result column="bookCounts" property="bookCounts" jdbcType="INTEGER" />
+        <result column="detail" property="detail" jdbcType="VARCHAR" />
+    </resultMap>
     <!--增加一个book-->
     <insert id="addBook" parameterType="Books">
         insert into ssmbuild.books(bookName, bookCounts, detail)
@@ -13,9 +20,9 @@
     </delete>
     <update id="updateBook" parameterType="Books">
         update ssmbuild.books set
-        <if test="books.bookName != null and books.bookName != ''">bookName=#{bookName},</if>
-        <if test="books.bookCounts !=null and books.bookCounts !=''">bookCounts=#{bookCounts},</if>
-       <if test="books.detail !=null and books.detail!=''">detail=#{detail}</if>
+        <if test="bookName != null and bookName != ''">bookName=#{bookName},</if>
+        <if test="bookCounts !=null and bookCounts !=''">bookCounts=#{bookCounts},</if>
+       <if test="detail !=null and detail!=''">detail=#{detail}</if>
         where bookID=#{bookID}
     </update>
     <!--根据id查询,返回一个Book-->
@@ -28,13 +35,15 @@
     <select id="queryAllBook" resultType="Books">
       SELECT bookID,bookName,bookCounts,detail from ssmbuild.books
    </select>
-    <!--条件查询全部Book-->
+
+    <!--条件查询Book-->
     <select id="queryBookByCriteria" resultType="Books">
+        <bind name="bookName" value="'%'+bookName+'%'" />
       SELECT bookID,bookName,bookCounts,detail
-      where 1=1
-      <if test="books.bookName !=null">and bookName like '%'#{bookName}'%'</if>
-        <if test="books.detail !=null">and detail like '%'#{detail}'%'</if>
-      from ssmbuild.books
+        from ssmbuild.books
+        where
+      <if test="bookName != null and bookName != ''" > bookName like #{bookName}  </if>
+        <if test="detail != null">and detail like CONCAT('%',#{detail},'%')  </if>
    </select>
 
 </mapper>

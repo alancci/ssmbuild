@@ -1,5 +1,7 @@
 package com.project.dao;
+
 import com.project.pojo.Books;
+
 import java.util.List;
 
 public interface BookMapper {
@@ -17,8 +19,6 @@ public interface BookMapper {
 
     //查询全部Book,返回list集合
     List<Books> queryAllBook();
-
+    //条件查询
     List<Books> queryBookByCriteria(Books books);
-
-
 }

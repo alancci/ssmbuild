@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.project.pojo.Books;
 import com.project.pojo.WebResultDto;
 import com.project.service.BookService;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -163,11 +164,15 @@ public class BookController {
      **/
     @RequestMapping(value = "/delete")
     @ResponseBody
-    public WebResultDto delete(Integer id){
-        System.out.println(id);
+    public WebResultDto delete( Integer bookID){
+        System.out.println(bookID);
         WebResultDto dto = new WebResultDto();
-        int delete = bookService.deleteBookById(id);
-        dto.success(delete);
+        int delete = bookService.deleteBookById(bookID);
+        if(delete>0){
+            dto.success(delete);
+        }else {
+            dto.fail(delete);
+        }
         return dto;
     }
 
