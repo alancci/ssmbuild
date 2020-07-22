@@ -19,4 +19,6 @@ public interface BookService {
 
     //查询全部Book,返回list集合
     List<Books> queryAllBook();
+    //条件查询
+    List<Books> queryBookByCriteria(Books books);
 }

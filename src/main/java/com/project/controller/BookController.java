@@ -10,14 +10,25 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.awt.print.Book;
 import java.util.List;
+
+/**
+ * @description 书籍
+ * @author  haojiaxing
+ * @date   2020/7/22 9:40
+ * @return      com.project.pojo.WebResultDto
+ * @Exception
+ **/
 @CrossOrigin
 @Controller
 @RequestMapping("/book")
 public class BookController {
+
     @Autowired
     @Qualifier("BookServiceImpl")
     private BookService bookService;
+
 
     @RequestMapping("/allBook")
     public String list(Model model) {
@@ -25,18 +36,6 @@ public class BookController {
         model.addAttribute("list", list);
         return "allBook";
     }
-
-    @RequestMapping("/list")
-    @ResponseBody
-    public WebResultDto webdto() {
-        WebResultDto dto = new WebResultDto();
-        List<Books> booksList = bookService.queryAllBook();
-//        JSONObject model = new JSONObject();
-//        model.put("book",booksList);
-        dto.success(booksList);
-        return dto;
-    }
-
 
 
 
@@ -46,12 +45,14 @@ public class BookController {
         return "addBook";
     }
 
+
     @RequestMapping("/addBook")
     public String addPaper(Books books) {
         System.out.println(books);
         bookService.addBook(books);
         return "redirect:/book/allBook";
     }
+
 
     @RequestMapping("/toUpdateBook")
     public String toUpdateBook(Model model, int id) {
@@ -62,6 +63,54 @@ public class BookController {
     }
 
 
+
+
+    @RequestMapping("/updateBook")
+    public String updateBook(Model model, Books book) {
+        System.out.println(book);
+        bookService.updateBook(book);
+        Books books = bookService.queryBookById(book.getBookID());
+        model.addAttribute("books", books);
+        return "redirect:/book/allBook";
+    }
+    @RequestMapping("/del/{bookId}")
+    public String deleteBook(@PathVariable("bookId") int id) {
+        bookService.deleteBookById(id);
+        return "redirect:/book/allBook";
+    }
+    /**
+     * @description 列出书籍列表
+     * @author  haojiaxing
+     * @date   2020/7/22 9:40
+     * @return      com.project.pojo.WebResultDto
+     * @Exception
+     **/
+    @RequestMapping("/list")
+    @ResponseBody
+    public WebResultDto webdto() {
+        WebResultDto dto = new WebResultDto();
+        List<Books> booksList = bookService.queryAllBook();
+        dto.success(booksList);
+        return dto;
+    }
+    /**
+     * @Description 添加一本书
+     * @Author  haojiaxing
+     * @Date   2020/7/21 11:29
+     * @Param  [books]
+     * @Return      com.project.pojo.WebResultDto
+     * @Exception
+     *
+     **/
+    @RequestMapping(value = "/add",method = RequestMethod.POST)
+    @ResponseBody
+    public WebResultDto addBookdto(Books books){
+        WebResultDto dto = new WebResultDto();
+        System.out.println(books);
+        int add = bookService.addBook(books);
+        dto.success(add);
+        return dto;
+    }
 
     /**
      * @Description 根据id更新书籍
@@ -87,41 +136,31 @@ public class BookController {
         return dto;
     }
     /**
-     * @Description 添加一本书
-     * @Author  haojiaxing
-     * @Date   2020/7/21 11:29
-     * @Param  [books]
-     * @Return      com.project.pojo.WebResultDto
+     * @description 条件查询书籍信息
+     * @author  haojiaxing
+     * @date   2020/7/22 9:56
+     * @return      com.project.pojo.WebResultDto
      * @Exception
-     *
      **/
-
-    @RequestMapping(value = "/add",method = RequestMethod.POST)
-    @ResponseBody
-    public WebResultDto addBookdto(Books books){
+    public  WebResultDto queryBookdto(Books books){
         WebResultDto dto = new WebResultDto();
         System.out.println(books);
-        int add = bookService.addBook(books);
-        dto.success(add);
-        return dto;
+        List<Books> list = bookService.queryBookByCriteria(books);
+        if(list != null){
+            dto.success(list);
+        }else {
+            dto.setInfo("书籍信息不存在");
+        }
+        return  dto;
     }
 
-
-
-
-    @RequestMapping("/updateBook")
-    public String updateBook(Model model, Books book) {
-        System.out.println(book);
-        bookService.updateBook(book);
-        Books books = bookService.queryBookById(book.getBookID());
-        model.addAttribute("books", books);
-        return "redirect:/book/allBook";
-    }
-    @RequestMapping("/del/{bookId}")
-    public String deleteBook(@PathVariable("bookId") int id) {
-        bookService.deleteBookById(id);
-        return "redirect:/book/allBook";
-    }
+    /**
+     * @description 根据id删除书籍
+     * @author  haojiaxing
+     * @date   2020/7/22 9:40
+     * @return      com.project.pojo.WebResultDto
+     * @Exception
+     **/
     @RequestMapping(value = "/delete")
     @ResponseBody
     public WebResultDto delete(Integer id){
@@ -133,13 +172,9 @@ public class BookController {
     }
 
 
-
-
-
     @RequestMapping("/test")
     @ResponseBody
     public Books booktest(){
-//        WebResultDto dto = new WebResultDto();
         Books book = new Books();
         book.setBookID(1);
         book.setBookName("123");

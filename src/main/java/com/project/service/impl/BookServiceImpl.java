@@ -4,6 +4,7 @@ import com.project.dao.BookMapper;
 import com.project.pojo.Books;
 import com.project.service.BookService;
 
+import java.awt.print.Book;
 import java.util.List;
 /**
  * @Description 方法(或接口)是
@@ -35,4 +36,9 @@ public class BookServiceImpl implements BookService {
     public List<Books> queryAllBook() {
         return bookMapper.queryAllBook();
     }
+
+    public List<Books> queryBookByCriteria(Books books) {
+        return bookMapper.queryBookByCriteria(books);
+    }
+
 }
