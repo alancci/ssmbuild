@@ -9,7 +9,60 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd7778a5-4d1a-40f3-9aca-e9dd6df17355" name="Default Changelist" comment="" />
+    <list default="true" id="fd7778a5-4d1a-40f3-9aca-e9dd6df17355" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/log/AfterLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/pojo/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/pojo/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/project/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/jsp/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/jsp/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/jsp/allBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/jsp/allBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dao/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dao/BookMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dao/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/pojo/Books.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/pojo/WebResultDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/impl/BookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/utils/ConstantUtils$ExeCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/utils/ConstantUtils$ExeCodeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/utils/ConstantUtils$SystemDefaultRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/utils/ConstantUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/utils/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmbuild.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Mytest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/allBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/allBook.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,34 +122,34 @@
           <entry key="project.closed" value="9" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="22" />
-          <entry key="java" value="3730" />
-          <entry key="jsp" value="12" />
+          <entry key="java" value="3872" />
+          <entry key="jsp" value="18" />
           <entry key="properties" value="25" />
           <entry key="txt" value="16" />
-          <entry key="xml" value="1490" />
+          <entry key="xml" value="1697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="22" />
-          <entry key="JAVA" value="3730" />
-          <entry key="JSP" value="12" />
+          <entry key="JAVA" value="3872" />
+          <entry key="JSP" value="18" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="Properties" value="25" />
           <entry key="SQL" value="14" />
-          <entry key="XML" value="1476" />
+          <entry key="XML" value="1683" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,13 +158,13 @@
           <entry key="bookid" value="2" />
           <entry key="books" value="8" />
           <entry key="html" value="1" />
-          <entry key="java" value="92" />
+          <entry key="java" value="98" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="16" />
+          <entry key="jsp" value="19" />
           <entry key="jsx" value="1" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="5" />
           <entry key="sql" value="2" />
-          <entry key="xml" value="50" />
+          <entry key="xml" value="55" />
           <entry key="xml;appContextName=applicationContext" value="1" />
           <entry key="xml;appContextName=spring-service" value="2" />
         </counts>
@@ -120,15 +173,15 @@
         <counts>
           <entry key="Database Element" value="8" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="92" />
-          <entry key="JSP" value="16" />
+          <entry key="JAVA" value="98" />
+          <entry key="JSP" value="19" />
           <entry key="JSX Harmony" value="1" />
           <entry key="JavaScript" value="2" />
-          <entry key="Properties" value="4" />
+          <entry key="Properties" value="5" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="2" />
           <entry key="UML" value="7" />
-          <entry key="XML" value="50" />
+          <entry key="XML" value="55" />
         </counts>
       </usages-collector>
     </session>
@@ -138,8 +191,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="-369">
+              <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,11 +200,93 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/service/impl/BookServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/dao/BookMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Mytest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/log/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/log/AfterLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,25 +325,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/project/controller/Test.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Hello.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/utils/ConstantUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/updateBook.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/pojo/WebResultDto.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/allBook.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/pojo/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/utils/MD5Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/dao/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/dao/BookMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/pojo/Books.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/Mytest.java" />
@@ -216,8 +345,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/project/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/service/UserService.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/allBook.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/dao/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/log/AfterLog.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/log/Log.java" />
       </list>
     </option>
   </component>
@@ -248,11 +385,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssmbuild" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssmbuild" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="529" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -286,8 +428,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,7 +488,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmbuild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmbuild" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmbuild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmbuild" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmbuild" type="b2602c69:ProjectViewProjectNode" />
@@ -368,19 +529,42 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssmbuild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmbuild" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmbuild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmbuild" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmbuild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmbuild" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmbuild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595409949827" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595492211268" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Softwore/DevelopTools/Tomcat/apache-tomcat-9.0.37-windows-x64/apache-tomcat-9.0.37/lib/jaspic-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -622,8 +806,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Mytest.testquery" />
-        <item itemvalue="JUnit.Mytest.testconfig" />
         <item itemvalue="JUnit.Mytest.test" />
+        <item itemvalue="JUnit.Mytest.testconfig" />
         <item itemvalue="JUnit.Mytest" />
         <item itemvalue="JUnit.Mytest.testcontion" />
       </list>
@@ -655,28 +839,11 @@
       <workItem from="1595403123181" duration="142000" />
       <workItem from="1595403302418" duration="75000" />
       <workItem from="1595403410597" duration="6510000" />
+      <workItem from="1595467196431" duration="10651000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Mytest_test - 2020.07.22 at 16h 48m 10s.xml">
-      <configuration name="Mytest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Mytest_testquery - 2020.07.22 at 16h 49m 11s.xml">
-      <configuration name="Mytest.testquery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Mytest_testquery - 2020.07.22 at 16h 50m 09s.xml">
-      <configuration name="Mytest.testquery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Mytest_testquery - 2020.07.22 at 16h 54m 14s.xml">
-      <configuration name="Mytest.testquery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Mytest_test - 2020.07.22 at 16h 54m 19s.xml">
-      <configuration name="Mytest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Mytest_testconfig - 2020.07.22 at 16h 54m 22s.xml">
-      <configuration name="Mytest.testconfig" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Mytest_testquery - 2020.07.22 at 17h 01m 36s.xml">
       <configuration name="Mytest.testquery" configurationId="JUnit" />
     </history-entry>
@@ -689,9 +856,27 @@
     <history-entry file="Mytest_testquery - 2020.07.22 at 17h 08m 33s.xml">
       <configuration name="Mytest.testquery" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Mytest_testquery - 2020.07.23 at 09h 20m 36s.xml">
+      <configuration name="Mytest.testquery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mytest_test - 2020.07.23 at 09h 20m 41s.xml">
+      <configuration name="Mytest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mytest_testquery - 2020.07.23 at 14h 52m 37s.xml">
+      <configuration name="Mytest.testquery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mytest_testquery - 2020.07.23 at 14h 53m 48s.xml">
+      <configuration name="Mytest.testquery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mytest_testquery - 2020.07.23 at 14h 55m 51s.xml">
+      <configuration name="Mytest.testquery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mytest_testquery - 2020.07.23 at 15h 41m 06s.xml">
+      <configuration name="Mytest.testquery" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80396000" />
+    <option name="totallyTimeSpent" value="91047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -706,7 +891,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Learn" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -716,7 +901,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33659065" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33767644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -740,7 +925,7 @@
       <window_info anchor="right" id="Codota" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Word Book" order="4" side_tool="true" />
       <window_info anchor="right" id="Database" order="5" weight="0.12526652" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -801,9 +986,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bafa1051-2db6-4c08-bd46-769a82bfedfd/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/BooksController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BooksDefault.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/BooksDao.java" />
@@ -814,13 +996,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BooksDao.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/Hello.html" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -828,14 +1003,6 @@
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,27 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/updateBook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/allBook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -973,13 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-479">
@@ -1017,20 +1156,6 @@
             <element signature="e#496#497#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/dao/BookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-932">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/dao/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1100,11 +1225,12 @@
               <point x="-56.0" y="-5.25" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9" x="-368.11111111111114" y="84.7222222222222" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="-368.0" y="85.0" />
           <SelectedNodes />
           <Categories>
             <Category>Show filesets as groups</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1128,37 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/dao/BookMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1166,13 +1261,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1216,13 +1304,83 @@
             <Category>Local context</Category>
             <Category>Properties</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/dao/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/updateBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/allBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1111">
+          <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/dao/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="-369">
+          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1231,8 +1389,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Mytest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/log/AfterLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/log/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>

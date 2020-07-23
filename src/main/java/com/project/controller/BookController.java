@@ -143,6 +143,8 @@ public class BookController {
      * @return      com.project.pojo.WebResultDto
      * @Exception
      **/
+    @RequestMapping(value = "query",method = RequestMethod.POST)
+    @ResponseBody
     public  WebResultDto queryBookdto(Books books){
         WebResultDto dto = new WebResultDto();
         System.out.println(books);
