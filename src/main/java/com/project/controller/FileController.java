@@ -81,14 +81,14 @@ public class FileController {
         OutputStream outputStream = response.getOutputStream();
         byte[] buff = new byte[1024];
         int index=0;
-        int count=0;
+        //int count=0;
         while ((index=inputStream.read(buff))!=-1){
-            count++;
+            //count++;
             outputStream.write(buff,0,index);
             System.out.println(buff);
             outputStream.flush();
         }
-        System.out.println(count);
+        //System.out.println(count);
         outputStream.close();
         inputStream.close();
         return null;
