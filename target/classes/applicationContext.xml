@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/aop
-       http://www.springframework.org/schema/aop/spring-aop.xsd">
+       http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 
     <bean id="Log" class="com.project.log.Log"></bean>
     <bean id="AfterLog" class="com.project.log.AfterLog"></bean>
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="addBook" propagation="REQUIRED"/>
+            <tx:method name="*" propagation="REQUIRED"/>
+
+
+
+        </tx:attributes>
+    </tx:advice>
     <aop:config>
         <aop:pointcut id="poincut" expression="execution(* com.project.service.impl.BookServiceImpl.*(..))"></aop:pointcut>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="poincut"></aop:advisor>
         <aop:advisor advice-ref="Log" pointcut-ref="poincut"></aop:advisor>
         <aop:advisor advice-ref="AfterLog" pointcut-ref="poincut"></aop:advisor>
     </aop:config>

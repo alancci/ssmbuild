@@ -10,6 +10,11 @@
         <result column="bookCounts" property="bookCounts" jdbcType="INTEGER" />
         <result column="detail" property="detail" jdbcType="VARCHAR" />
     </resultMap>
+    <sql id="bbd">
+        <if test="bookName != null and bookName != ''">bookName=#{bookName},</if>
+        <if test="bookCounts !=null and bookCounts !=''">bookCounts=#{bookCounts},</if>
+        <if test="detail !=null and detail!=''">detail=#{detail}</if>
+    </sql>
     <!--增加一个book-->
     <insert id="addBook" parameterType="Books">
         insert into ssmbuild.books(bookName, bookCounts, detail)
@@ -20,9 +25,7 @@
     </delete>
     <update id="updateBook" parameterType="Books">
         update ssmbuild.books set
-        <if test="bookName != null and bookName != ''">bookName=#{bookName},</if>
-        <if test="bookCounts !=null and bookCounts !=''">bookCounts=#{bookCounts},</if>
-       <if test="detail !=null and detail!=''">detail=#{detail}</if>
+       <include refid="bbd"/>
         where bookID=#{bookID}
     </update>
     <!--根据id查询,返回一个Book-->

@@ -33,5 +33,10 @@
         书籍详情：<input type="text" name="detail"><br><br><br>
         <input type="submit" value="添加">
     </form>
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="file"/>
+        <input type="submit" value="upload">
+    </form>
+    <a href="/download">点击下载</a>
 
 </div>
