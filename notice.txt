@@ -1,0 +1,4 @@
+database in folder
+this is a maven project and you can import it to idea directly
+good luck
+if it helps you, welcome to star.
